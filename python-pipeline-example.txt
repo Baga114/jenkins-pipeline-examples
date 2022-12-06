@@ -3,7 +3,7 @@ agent any
     stages {
         stage('build') {
             steps {
-                sh 'python3 --version'
+                sh '/home/ubuntu/python-foundations-3-weeks/examples/week_1'
                 echo "hello world"
             }
         }
